@@ -1,0 +1,122 @@
+
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+
+    background-repeat: no-repeat;
+    background: rgb(255,246,235);
+    background: linear-gradient(175deg, rgba(255,246,235,1) 35%, rgba(252,193,163,1) 100%);
+
+   
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    align-items: center;
+    justify-content: center;
+
+}
+.navegacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo img{
+    margin: 2em 0em 2em 0em;
+    width: 80em;
+}
+.menu a{
+    margin: 0em 2em 0 2em;
+    padding: 1em;
+
+    text-decoration: none;
+
+    background-color: #fff6eb;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 10em;
+    border-radius: 1rem;
+    color: #491E21;
+    box-shadow: 0 0.4rem #585858;
+    cursor: pointer;
+}
+.menu a:active{
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+}
+.menu a:hover:not(:disabled) {
+    background: #fcc1a3;
+    color: #491E21;
+    text-shadow: 0 0.1rem #bcb4b4;
+}
+.menu a:disabled {
+    cursor: auto;
+    color: grey;
+}
+.presentacion{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.presentacion img{
+    width: 420px;
+}
+
+.contenedor {
+    margin: 0 1em 1em 1em;
+
+}
+
+.TituloProductos{
+    margin-top: 5em;
+}
+.lista-productos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.carta{
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 1em 0 1em;
+    text-align: center;
+    width: 190px;
+    height: 250px;
+    padding: .8em;
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+    border-radius: 1em;
+}
+.carta img{
+    width: 190px;
+}
+
+
+
+
+
+
+
+footer{
+
+    color: #491E21;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+h3{
+    font-size: 1em;
+}

@@ -11,3 +11,6 @@ def lista_productos(request):
 
 def nosotros(request):
     return render(request, 'sobre_nosotros.html')
+
+def contacto(request):
+    return render(request, 'contacto.html')

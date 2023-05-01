@@ -25,6 +25,7 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 3em;
 }
 .titulo img{
     margin: 2em 0em 2em 0em;
@@ -77,6 +78,12 @@ html, body{
 
 }
 
+/* Fin CSS INDEx */
+
+
+/* Comienzo CSS Lista Productos */
+
+
 .TituloProductos{
     margin-top: 5em;
 }
@@ -85,6 +92,8 @@ html, body{
     justify-content: center;
     align-items: center;
 
+ 
+
 }
 .carta{
     display: flex;
@@ -92,28 +101,42 @@ html, body{
 
     margin: 0 1em 0 1em;
     text-align: center;
-    width: 190px;
+    width: 210px;
     height: 250px;
     padding: .8em;
     background: #ffffff;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 
     border-radius: 1em;
+
+ 
 }
 .carta img{
     width: 190px;
 }
 
 
+/* Fin CSS Lista Productos*/
 
+/* Inicio CSS Sobre Nosotros*/
 
-
+.titulo_nosotros{
+    margin-top: 5em;
+}
+.nosotros_contenedor{
+    display: flex;
+    flex-direction: column;
+}
+.img_nosotros img{
+    width: 550px;
+}
 
 
 footer{
 
     color: #491E21;
     text-align: center;
+    padding-top: 5em;
     margin-bottom: 0px;
 }
 

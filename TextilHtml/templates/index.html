@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="{% static '/css/styles.css' %}">
 
-    <h1>Commit</H1>
     <title>La Jardinera</title>
 </head>
 <body>
@@ -16,8 +15,8 @@
             <nav class="menu">
                 <a href="{% url 'inicio' %}">Inicio</a>
                 <a href="{% url 'lista_productos' %}" >Productos</a>
-                <a href="{% 'url nosotros' %}">Sobre Nosotros</a>
-                <a href="Contacto/contacto.html">Contacto</a>
+                <a href="{% url 'nosotros' %}">Sobre Nosotros</a>
+                <a href="{% url 'contacto' %}">Contacto</a>
             </nav>        
         </div>
 
@@ -42,7 +41,7 @@
                 <h2>Sobre Nosotros</h2>
             </div>            
             <div class="nosotros-izq">
-                <a href="Nosotros/nosotros.html"><img src="{% static 'css/img-1.png'%}"></a>
+                <a href="{% url 'nosotros' %}"><img src="{% static 'css/img-1.png'%}"></a>
             </div>
         </div>
         <div class="contenedor">
@@ -50,12 +49,13 @@
                 <h2>Contactanos</h2>
             </div>
             <div class="contacto-der">
-                <a href="Contacto/contacto.html"><img src="{% static 'css/img-1.png'%}"></a>
+                <a href="{% url 'contacto' %}"><img src="{% static 'css/img-1.png'%}"></a>
             </div>
         </div>
     </div> 
 
 {% endblock %}
+
 <footer>
     <h3>Creado por Santiago Prado, Todos los derechos reservados</h3>
 </footer>

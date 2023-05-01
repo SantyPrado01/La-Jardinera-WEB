@@ -9,11 +9,12 @@
 </div>
 <div class = 'lista-productos'>
     <div class='carta'>
-            {% for producto in productos %}
-                <img src="{{ producto.imagen.url }}" alt="{{ producto.nombre }}">
-                <h2>{{ producto.nombre }}</h2>
-                <p>Precio: ${{ producto.precio }}</p>
-            {% endfor %}
+        {% for producto in productos %}
+            <img src="{{ producto.imagen.url }}" alt="{{ producto.nombre }}">
+            <h2>{{ producto.nombre }}</h2>
+            <p>Precio: ${{ producto.precio }}</p>
+        {% endfor %}
     </div>
 </div>
+
 {%endblock%}

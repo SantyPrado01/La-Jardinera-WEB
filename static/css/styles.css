@@ -9,7 +9,7 @@ html, body{
     background-repeat: no-repeat;
     background: rgb(255,246,235);
     background: linear-gradient(175deg, rgba(255,246,235,1) 35%, rgba(252,193,163,1) 100%);
-
+    min-height: 100vh;
    
 }
 
@@ -85,7 +85,7 @@ html, body{
 
 
 .TituloProductos{
-    margin-top: 5em;
+    margin-top: 3em;
 }
 .lista-productos{
     display: flex;
@@ -101,7 +101,7 @@ html, body{
 
     margin: 0 1em 0 1em;
     text-align: center;
-    width: 210px;
+    width: 190px;
     height: 250px;
     padding: .8em;
     background: #ffffff;
@@ -121,19 +121,56 @@ html, body{
 /* Inicio CSS Sobre Nosotros*/
 
 .titulo_nosotros{
-    margin-top: 5em;
+    margin-top: 3em;
 }
 .nosotros_contenedor{
     display: flex;
-    flex-direction: column;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+   
+    
 }
 .img_nosotros img{
-    width: 550px;
+    width: 650px;
+    height: 450px;
+    margin: 0 2em 0 8em;
+}
+
+.texto_nosotros{
+    margin: 0 2em 0 8em;
 }
 
 
-footer{
+/*Fin CSS Sobre Nosotros*/
 
+/* Inicio CSS Contacto */
+
+.titulo_contacto{
+    margin-top: 3em;
+}
+
+.contactanos_contenedor{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ubicacion_map{
+    margin: 0 2em 0 8em;
+}
+.texto_contacto{
+    text-align: center;
+    margin: 0 2em 0 8em;
+    background-color: #bcb4b4;
+    border-radius: 3em;
+}
+
+
+/* FIn CSS Contacto */
+footer{
+    justify-content: baseline;
     color: #491E21;
     text-align: center;
     padding-top: 5em;

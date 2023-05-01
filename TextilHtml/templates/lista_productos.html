@@ -10,9 +10,9 @@
 <div class = 'lista-productos'>
     <div class='carta'>
         {% for producto in productos %}
-            <img src="{{ producto.imagen.url }}" alt="{{ producto.nombre }}">
-            <h2>{{ producto.nombre }}</h2>
-            <p>Precio: ${{ producto.precio }}</p>
+            <img src="{{ producto.imagen.url }}">
+            <h3>{{ producto.nombre }} $ {{ producto.precio }}</h3>
+        
         {% endfor %}
     </div>
 </div>

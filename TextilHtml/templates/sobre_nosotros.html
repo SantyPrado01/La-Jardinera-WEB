@@ -1,0 +1,16 @@
+
+{% extends 'index.html' %}
+
+    {%load static%}
+
+{% block contenidoQueCambia%}
+    <h1>Sobre Nosotros</h1>
+    <div class="nosotros_contendor">
+        <div class="img_nosotros">
+            <img src="{static % 'css/img-historia.jpeg' %}">
+        </div>
+        <div class="texto_nosotros">
+            <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit officiis similique non minima ea doloribus corrupti quis excepturi quasi aliquam nam, molestias delectus tenetur! Non eligendi impedit commodi cum sit?</h4>
+        </div>
+    </div>
+{%endblock%}

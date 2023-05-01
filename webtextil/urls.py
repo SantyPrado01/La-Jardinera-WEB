@@ -16,10 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from TextilHtml.views import index, lista_productos
+from TextilHtml.views import *
 
 urlpatterns = [
-    path('', index),
+    path('', index, name='inicio'),
     path('productos/' , lista_productos, name= 'lista_productos'),
+    path('sobrenostros/', nosotros, name='nosotros'),
     path('admin/', admin.site.urls),
 ]

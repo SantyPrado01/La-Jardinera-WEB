@@ -160,15 +160,32 @@ html, body{
 .ubicacion_map{
     margin: 0 2em 0 8em;
 }
+
 .texto_contacto{
     text-align: center;
     margin: 0 2em 0 8em;
-    background-color: #bcb4b4;
+
     border-radius: 3em;
+    height: 20em;
+    width: 20em;
+
+    background-color: #fff6eb;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #491E21;
+    box-shadow: 0 0.4rem #585858;
+    cursor: pointer;
 }
 
 
-/* FIn CSS Contacto */
+
+
+/* Fin CSS Contacto */
+
+
+
+
 footer{
     justify-content: baseline;
     color: #491E21;

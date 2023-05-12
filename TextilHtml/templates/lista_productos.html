@@ -8,13 +8,14 @@
     <h1>Lista de Productos</h1>
 </div>
 <div class = 'lista-productos'>
-    <div class='carta'>
+   
         {% for producto in productos %}
+     <div class='carta'>    
             <img src="{{ producto.imagen.url }}">
             <h3>{{ producto.nombre }} $ {{ producto.precio }}</h3>
-        
+     </div>   
         {% endfor %}
-    </div>
+    
 </div>
 
 {%endblock%}

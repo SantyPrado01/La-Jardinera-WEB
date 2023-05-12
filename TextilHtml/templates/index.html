@@ -19,10 +19,12 @@
                 <a href="{% url 'contacto' %}">Contacto</a>
             </nav>        
         </div>
-
+    
 {%block contenidoQueCambia %}
+
         <div class="titulo">
-            <img src="{% static 'css/Presentacion.png' %}">
+            <h1>La Jardinera</h1>
+            <h2>Textil</h2>
         </div>
     </div>
 
@@ -46,15 +48,17 @@
         </div>
         <div class="contenedor">
             <div class="contacto-izq">
-                <h2>Contactanos</h2>
+        
             </div>
             <div class="contacto-der">
-                <a href="{% url 'contacto' %}"><img src="{% static 'css/img-1.png'%}"></a>
+                <a href="{% url 'contacto' %}"><img src="{% static 'css/Contactanos.png'%}"></a>
             </div>
         </div>
     </div> 
 
 {% endblock %}
+
+<a href="https://api.whatsapp.com/send?phone=5493541290240" target="_blank" class="whatsapp"><img src="{% static 'css/whatsapp.png' %}"></a>
 
 <footer>
     <h3>Creado por Santiago Prado, Todos los derechos reservados</h3>

@@ -11,7 +11,7 @@
    
         {% for producto in productos %}
      <div class='carta'>    
-            <img src="{{ producto.imagen.url }}">
+            <img src="{{ producto.imagen.url }} ">
             <h3>{{ producto.nombre }} $ {{ producto.precio }}</h3>
      </div>   
         {% endfor %}
@@ -19,3 +19,4 @@
 </div>
 
 {%endblock%}
+<img src="{% static 'css/Presentacion.png' %}">

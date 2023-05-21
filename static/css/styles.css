@@ -125,7 +125,7 @@ html, body{
 .carta {
 
     width: 180px;
-    height: 200px;
+    height: 240px;
     margin: 20px;
 
     background-color: #fff;
@@ -142,10 +142,10 @@ html, body{
 /* Estilo para la imagen de cada producto */
 .carta img {
 
-    max-width: 100%;
+    width: 90%;
     height: auto;
-    margin-top: 2em;
-    margin-bottom: 20px;
+    margin-top: 1em;
+    margin-bottom: 10px;
 
 }
 

@@ -1,14 +1,17 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');/*Fuente Cursiva*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap'); /*Fuente Titulos*/
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');/*Fuente Textos*/
+
 html, body{
-    font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
     height: 100%;
     box-sizing: border-box;
 
     background-repeat: no-repeat;
-    /*background:#F5CAC3;*/
-    background-image: url(fondoLaJardinera.png);
+    background-color: #EDE4E0;
+   
     min-height: 100vh;
    
 }
@@ -30,68 +33,94 @@ html, body{
 
 .titulo{
   
-    font-style: italic;
-    color: #491E21;
+    color: #000000;
     text-align: center;
 
 }
 .titulo h1{
-  
-    font-size: 6em;
+    margin: 0;
+    font-family: 'Cormorant', serif;
+    font-size: 7em;
 }
 
 .titulo h2{
-    font-size: 3em;
-}
+    color: #9b19ca;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4.5em;
 
-.menu a{
-    margin: 0em 2em 0 2em;
-    padding: 1em;
-
-    text-decoration: none;
-
-    background-color: #fff6eb;
-    border: none;
-    padding: 1rem;
-    font-size: 1rem;
-    width: 10em;
-    border-radius: 1rem;
-    color: #491E21;
-    box-shadow: 0 0.4rem #585858;
-    cursor: pointer;
 }
-.menu a:active{
-    color: white;
-    box-shadow: 0 0.2rem #dfd9d9;
-    transform: translateY(0.2rem);
-}
-.menu a:hover:not(:disabled) {
-    background: #fcc1a3;
-    color: #491E21;
-    text-shadow: 0 0.1rem #bcb4b4;
-}
-.menu a:disabled {
-    cursor: auto;
-    color: grey;
-}
-.presentacion{
+.menu{
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
     align-items: center;
     text-align: center;
 }
 
+.menu a{
+
+    font-family: 'Cormorant', serif;
+    margin: 0em 2em 0 2em;
+    padding: 1em;
+    color: #000000;
+    text-decoration: none;
+
+    background-color:#EDE4E0;
+    border: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    width: 8em;
+
+    box-shadow: 0 0.2rem #000000;
+    cursor: pointer;
+
+}
+
+.menu a:hover:not(:disabled) {
+
+    background: #b4b4b4;
+    color: #000000;
+    text-shadow: 0 0.1rem #bcb4b4;
+
+}
+
+.Logo{
+
+    width: 4em;
+}
+
+.flex-container-home{
+
+    margin: 2em 6em 2em 6em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.presentacion{
+
+    margin-left: 1.5em;
+
+}
+
+.titulo{
+
+    margin-right: 1.5em;
+
+}
+
 .presentacion img{
-    width: 420px;
-    padding-bottom: 2em;
-}
 
-.contenedor {
-
-    margin: 0 1em 0em 1em;
+    width: 45em;
+    border-radius: 2em;
 
 }
+p{
+    font-size: 1.3em;
+    font-family: 'Karla', sans-serif;
+}
+
 
 /* Fin CSS INDEx */
 
@@ -100,32 +129,34 @@ html, body{
 
 
 /* Estilo para el título de la lista de productos */
-.TituloProductos {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 30px;
+.tituloproducto {
+
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 30px;
+    font-family: 'Cormorant', serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
 }
 
-.TituloProductos h1 {
-  font-size: 36px;
-  font-weight: bold;
-  color: #333;
-}
 
 /* Estilo para la sección de la lista de productos */
 .lista-productos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin-bottom: 2em;
 }
 
 /* Estilo para cada carta de producto */
 .carta {
 
-    width: 180px;
-    height: 240px;
+    width: 190px;
+    height: 250px;
     margin: 20px;
 
     background-color: #fff;
@@ -133,16 +164,18 @@ html, body{
     transition: box-shadow 0.3s ease;
     text-align: center;
 
+    border-radius: 1em;
+
 }
 
 .carta:hover {
-  box-shadow: 0 4px 8px rgba(250, 114, 114, 0.3);
+  box-shadow: 0 4px 8px #de84ff4d;
 }
 
 /* Estilo para la imagen de cada producto */
 .carta img {
 
-    width: 90%;
+    width: 80%;
     height: auto;
     margin-top: 1em;
     margin-bottom: 10px;
@@ -168,27 +201,41 @@ html, body{
 
 /* Fin CSS Lista Productos*/
 
+
 /* Inicio CSS Sobre Nosotros*/
 
-.titulo_nosotros{
-    margin-top: 3em;
+.titulonosotros{
+
+    text-align: center;
+    margin-top: 1em;
+    font-family: 'Cormorant', serif;
+    font-size: 36px;
+
 }
+
 .nosotros_contenedor{
+
     display: flex;
-    flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
+    margin: 0 8em 5em 8em;
    
-    
+}
+.textonosotros{
+
+    font-family: 'Karla', sans-serif;
+
 }
 .img_nosotros img{
+
     width: 650px;
     height: 450px;
-    margin: 0 2em 0 8em;
+    border-radius: 2em;
+    margin-right: 2em;
 }
 
 .texto_nosotros{
-    margin: 0 2em 0 8em;
+    margin-left: 2em;
 }
 
 
@@ -196,16 +243,22 @@ html, body{
 
 /* Inicio CSS Contacto */
 
-.titulo_contacto{
-    margin: 3em 0 2em 0;
+.titulocontacto{
+
+    text-align: center;
+    margin-top: 1em;
+    font-family: 'Cormorant', serif;
+    font-size: 36px;
 
 }
 
 .contactanos_contenedor{
+
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
+
 }
 
 .ubicacion_map{
@@ -230,10 +283,10 @@ html, body{
 }
 
 
-
-
 /* Fin CSS Contacto */
+
 /*WhatsApp*/
+
 .whatsapp {
     position: fixed;
     bottom: 20px;
@@ -248,6 +301,7 @@ html, body{
     line-height: 60px;
     z-index: 9999;
     transition: all 0.3s ease-in-out;
+
   }
   .whatsapp img{
     width: 60px;
@@ -265,12 +319,17 @@ html, body{
 
 
 footer{
+
+
+    background-color: #9b19cacf;;
+    color: #000000;
     text-align: center;
- 
-    color: #491E21;
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 0px;
+    padding: 1em;
+  
+    margin-bottom: 0;
+  
+    width: 100%;
+
 }
 
 h3{

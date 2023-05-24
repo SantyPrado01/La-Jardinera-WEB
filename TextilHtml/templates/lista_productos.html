@@ -4,9 +4,7 @@
     {%load static%}
 
 {% block contenidoQueCambia%}
-<div class='TituloProductos'>
-    <h1>Lista de Productos</h1>
-</div>
+    <h1 class='tituloproducto'>Lista de Productos</h1>
 <div class = 'lista-productos'>
    
         {% for producto in productos %}
@@ -19,4 +17,3 @@
 </div>
 
 {%endblock%}
-<img src="{% static 'css/Presentacion.png' %}">

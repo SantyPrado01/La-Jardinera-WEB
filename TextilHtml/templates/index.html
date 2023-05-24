@@ -13,55 +13,37 @@
     <div class="encabezado">
         <div class="navegacion">
             <nav class="menu">
+                <img class= 'Logo' src="{% static 'css/Logo.png' %}">
                 <a href="{% url 'inicio' %}">Inicio</a>
                 <a href="{% url 'lista_productos' %}" >Productos</a>
                 <a href="{% url 'nosotros' %}">Sobre Nosotros</a>
                 <a href="{% url 'contacto' %}">Contacto</a>
             </nav>        
         </div>
-    
-{%block contenidoQueCambia %}
-
-        <div class="titulo">
-            <h1>La Jardinera</h1>
-            <h2>Textil</h2>
-        </div>
     </div>
 
+{%block contenidoQueCambia %}
 
-    <div class="presentacion">
-        <div class="contenedor">
-            <div class="productos-izq">
-                <h2>Nuestros Productos</h2>
-            </div>
-            <div class="productos-der">
-                <a href="{% url 'lista_productos' %}" ><img src="{% static 'css/img-1.png'%}"></a>
-            </div>
-        </div>
-        <div class="contenedor">
-            <div class="nosotros-der">
-                <h2>Sobre Nosotros</h2>
-            </div>            
-            <div class="nosotros-izq">
-                <a href="{% url 'nosotros' %}"><img src="{% static 'css/img-1.png'%}"></a>
-            </div>
-        </div>
-        <div class="contenedor">
-            <div class="contacto-izq">
+<div class='flex-container-home'>
+    <div class="titulo">
+
+        <h2>Textil</h2>
+        <h1>La Jardinera</h1>
         
-            </div>
-            <div class="contacto-der">
-                <a href="{% url 'contacto' %}"><img src="{% static 'css/Contactanos.png'%}"></a>
-            </div>
-        </div>
-    </div> 
+        <p>Somos una empresa dedicada a la compra y venta de materiales textiles de alta calidad. Nuestra tradición familiar nos han llevado a ofrecer una amplia gama de telas, como rollos de algodón, seda, friselina y muchos más.
+        Desde nuestra fundación en 2010, hemos mantenido el legado de nuestro abuelo, quien comenzó vendiendo telas en la ciudad de Villa Carlos Paz con una Jardinera, una carreta única. Inspirados por esta historia, decidimos darle nombre a nuestra empresa en honor a ese espíritu pionero y emprendedor: Textil La Jardinera™.</P>
+    </div>
+    <div class="presentacion">
+        <a href="{% url 'lista_productos' %}" ><img src="{% static 'css/img-1.png'%}"></a>
+    </div>
+</div>
 
 {% endblock %}
 
 <a href="https://api.whatsapp.com/send?phone=5493541290240" target="_blank" class="whatsapp"><img src="{% static 'css/whatsapp.png' %}"></a>
 
 <footer>
-    <h3>Creado por Santiago Prado, Todos los derechos reservados</h3>
+    <h3>Creado por Santiago Prado, Todos los derechos reservados.</h3>
 </footer>
 
 

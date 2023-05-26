@@ -2,15 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');/*Fuente Cursiva*/
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap'); /*Fuente Titulos*/
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');/*Fuente Textos*/
-
+/*EDE4E0*/
 html, body{
     padding: 0;
     margin: 0;
-    height: 100%;
     box-sizing: border-box;
 
     background-repeat: no-repeat;
-    background-color: #EDE4E0;
+    background-color: white;
    
     min-height: 100vh;
    
@@ -19,37 +18,14 @@ html, body{
 .encabezado {
     display: flex;
     flex-direction: column;
-    margin-top: 3em;
+    margin: 2em 5em 2em 5em;
     align-items: center;
-    justify-content: center;
-
 }
+
 .navegacion{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 2em;
 }
 
-.titulo{
-  
-    color: #000000;
-    text-align: center;
-
-}
-.titulo h1{
-    margin: 0;
-    font-family: 'Cormorant', serif;
-    font-size: 7em;
-}
-
-.titulo h2{
-    color: #9b19ca;
-    margin: 0;
-    font-family: 'Dancing Script', cursive;
-    font-size: 4.5em;
-
-}
 .menu{
     display: flex;
     align-items: center;
@@ -60,15 +36,14 @@ html, body{
 
     font-family: 'Cormorant', serif;
     margin: 0em 2em 0 2em;
-    padding: 1em;
+    padding: 1.2em;
     color: #000000;
     text-decoration: none;
 
-    background-color:#EDE4E0;
+    background-color:white;
     border: none;
-    padding: 1rem;
     font-size: 1.2rem;
-    width: 8em;
+    width: 10em;
 
     box-shadow: 0 0.2rem #000000;
     cursor: pointer;
@@ -82,6 +57,26 @@ html, body{
     text-shadow: 0 0.1rem #bcb4b4;
 
 }
+.titulo{
+    margin-left: 4em;
+    color: #000000;
+    text-align: center;
+
+}
+.titulo h1{
+    margin: 0;
+    font-family: 'Cormorant', serif;
+    font-size: 7em;
+}
+
+.titulo h2{
+    color: #c798e6;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4.5em;
+
+}
+
 
 .Logo{
 
@@ -90,7 +85,7 @@ html, body{
 
 .flex-container-home{
 
-    margin: 2em 6em 2em 6em;
+    margin: 10em 8em 6em 8em;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -99,7 +94,7 @@ html, body{
 }
 
 .presentacion{
-
+    margin-right: 5em;
     margin-left: 1.5em;
 
 }
@@ -112,7 +107,7 @@ html, body{
 
 .presentacion img{
 
-    width: 45em;
+    width: 35em;
     border-radius: 2em;
 
 }
@@ -132,7 +127,7 @@ p{
 .tituloproducto {
 
     text-align: center;
-    margin-top: 1em;
+    margin-top: 2em;
     margin-bottom: 30px;
     font-family: 'Cormorant', serif;
     font-size: 36px;
@@ -207,7 +202,7 @@ p{
 .titulonosotros{
 
     text-align: center;
-    margin-top: 1em;
+    margin-top: 2em;
     font-family: 'Cormorant', serif;
     font-size: 36px;
 
@@ -246,7 +241,7 @@ p{
 .titulocontacto{
 
     text-align: center;
-    margin-top: 1em;
+    margin-top: 2em;
     font-family: 'Cormorant', serif;
     font-size: 36px;
 
@@ -289,10 +284,9 @@ p{
 
 .whatsapp {
     position: fixed;
-    bottom: 20px;
+    bottom: 5em;
     right: 20px;
   
-    color: #fff;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -301,11 +295,12 @@ p{
     line-height: 60px;
     z-index: 9999;
     transition: all 0.3s ease-in-out;
+    margin-right: 1.5em;
 
   }
   .whatsapp img{
-    width: 60px;
-    height: 60px;
+    width: 120px;
+    height: 95px;
   }
   .whatsapp:hover {
     transform: scale(1.1);
@@ -319,19 +314,39 @@ p{
 
 
 footer{
-
-
-    background-color: #9b19cacf;;
-    color: #000000;
-    text-align: center;
-    padding: 1em;
-  
-    margin-bottom: 0;
-  
+    display: flex;
+    
+   justify-content: center;
+    background-color: #c798e6;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
 
 }
 
-h3{
+
+.footer-right{
+    width: 50%;
+    text-align: right;
+    margin-right: 11em;
+    padding: 0.5em;
+    font-family: 'Karla', sans-serif;
     font-size: 1em;
+    color: white;
+}
+
+.footer-left{
+    margin-top: 0.5em;
+
+    margin-left: 11em;
+    width: 50%;
+    align-items: flex-start;
+    justify-content: center;
+   
+}
+
+.footer-left img{
+    width: 45px;
+    padding: 0.5em;
 }

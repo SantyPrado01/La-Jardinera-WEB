@@ -24,27 +24,33 @@
 
 {%block contenidoQueCambia %}
 
-<div class='flex-container-home'>
-    <div class="titulo">
+    <div class='flex-container-home'>
+        <div class="titulo">
 
-        <h2>Textil</h2>
-        <h1>La Jardinera</h1>
+            <h2>Textil</h2>
+            <h1>La Jardinera</h1>
         
-        <p>Somos una empresa dedicada a la compra y venta de materiales textiles de alta calidad. Nuestra tradición familiar nos han llevado a ofrecer una amplia gama de telas, como rollos de algodón, seda, friselina y muchos más.
-        Desde nuestra fundación en 2010, hemos mantenido el legado de nuestro abuelo, quien comenzó vendiendo telas en la ciudad de Villa Carlos Paz con una Jardinera, una carreta única. Inspirados por esta historia, decidimos darle nombre a nuestra empresa en honor a ese espíritu pionero y emprendedor: Textil La Jardinera™.</P>
+            <p>Somos una empresa familiar dedicada a la compra y venta de materiales textiles de alta calidad. Desde 2010, seguimos el legado de nuestro abuelo, quien comenzó vendiendo telas en Villa Carlos Paz con una Jardinera única. Nos enorgullece llevar su espíritu emprendedor y ofrecer una amplia gama de telas, como algodón, seda y friselina, para nuestros clientes.</P>
+        </div>
+        <div class="presentacion">
+            <a href="{% url 'lista_productos' %}" ><img src="{% static 'css/img-1.png'%}"></a>
+        </div>
     </div>
-    <div class="presentacion">
-        <a href="{% url 'lista_productos' %}" ><img src="{% static 'css/img-1.png'%}"></a>
-    </div>
-</div>
 
 {% endblock %}
 
-<a href="https://api.whatsapp.com/send?phone=5493541290240" target="_blank" class="whatsapp"><img src="{% static 'css/whatsapp.png' %}"></a>
+    <a href="https://api.whatsapp.com/send?phone=5493541290240" target="_blank" class="whatsapp"><img src="{% static 'css/whatsapp.png' %}"></a>
 
-<footer>
-    <h3>Creado por Santiago Prado, Todos los derechos reservados.</h3>
-</footer>
+    <footer>    
+        <div class='footer-left'>
+            <a href=''><img src="{% static 'css/facebook.png'%}"></a>
+            <a href=''><img src="{% static 'css/instagram.png'%}"></a>
+        </div>
+        <div class='footer-right'>
+            <h3>Creado por Santiago Prado, Todos los derechos reservados.</h3>
+        </div>
+
+    </footer>
 
 
 

@@ -5,7 +5,7 @@
 /*EDE4E0*/
 html, body{
     padding: 0;
-    margin: 0;
+    margin: 0 4em 0 4em;
     box-sizing: border-box;
 
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@ html, body{
 .encabezado {
     display: flex;
     flex-direction: column;
-    margin: 2em 5em 2em 5em;
+    margin: 2em 0em 2em 0em;
     align-items: center;
 }
 
@@ -85,7 +85,7 @@ html, body{
 
 .flex-container-home{
 
-    margin: 10em 8em 6em 8em;
+    margin: 10em 0em 6em 0em;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;

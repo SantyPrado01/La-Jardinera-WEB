@@ -3,129 +3,108 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap'); /*Fuente Titulos*/
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');/*Fuente Textos*/
 /*EDE4E0*/
-html, body{
+html, body {
     padding: 0;
-    margin: 0 4em 0 4em;
+    margin: 0 4em;
     box-sizing: border-box;
-
     background-repeat: no-repeat;
     background-color: white;
-   
     min-height: 100vh;
-   
 }
 
 .encabezado {
     display: flex;
     flex-direction: column;
-    margin: 2em 0em 2em 0em;
+    margin: 2em 0;
     align-items: center;
 }
 
-.navegacion{
+.navegacion {
     display: flex;
 }
 
-.menu{
+.menu {
     display: flex;
     align-items: center;
     text-align: center;
 }
 
-.menu a{
-
+.menu a {
     font-family: 'Cormorant', serif;
-    margin: 0em 2em 0 2em;
+    margin: 0 2em;
     padding: 1.2em;
     color: #000000;
     text-decoration: none;
-
-    background-color:white;
+    background-color: white;
     border: none;
     font-size: 1.2rem;
     width: 10em;
-
     box-shadow: 0 0.2rem #000000;
     cursor: pointer;
-
 }
 
 .menu a:hover:not(:disabled) {
-
     background: #b4b4b4;
     color: #000000;
     text-shadow: 0 0.1rem #bcb4b4;
-
 }
-.titulo{
+
+.titulo {
     margin-left: 4em;
     color: #000000;
     text-align: center;
-
 }
-.titulo h1{
+
+.titulo h1 {
     margin: 0;
     font-family: 'Cormorant', serif;
     font-size: 7em;
 }
 
-.titulo h2{
+.titulo h2 {
     color: #c798e6;
     margin: 0;
     font-family: 'Dancing Script', cursive;
     font-size: 4.5em;
-
 }
 
-
-.Logo{
-
+.Logo {
     width: 4em;
 }
 
-.flex-container-home{
-
-    margin: 10em 0em 6em 0em;
+.flex-container-home {
+    margin: 10em 0 6em 0;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-
 }
 
-.presentacion{
+.presentacion {
     margin-right: 5em;
     margin-left: 1.5em;
-
 }
 
-.titulo{
-
+.titulo-home {
     margin-right: 1.5em;
-
 }
 
-.presentacion img{
-
+.presentacion img {
     width: 35em;
     border-radius: 2em;
-
 }
-p{
+
+p {
     font-size: 1.3em;
     font-family: 'Karla', sans-serif;
 }
 
-
-/* Fin CSS INDEx */
-
+/* Fin CSS INDEX */
 
 /* Comienzo CSS Lista Productos */
 
-
 /* Estilo para el título de la lista de productos */
 .tituloproducto {
-
     text-align: center;
     margin-top: 2em;
     margin-bottom: 30px;
@@ -135,7 +114,6 @@ p{
     color: #333;
 }
 
-
 /* Estilo para la sección de la lista de productos */
 .lista-productos {
     display: flex;
@@ -143,190 +121,159 @@ p{
     justify-content: center;
     align-items: center;
     text-align: center;
-
     margin-bottom: 2em;
 }
 
 /* Estilo para cada carta de producto */
 .carta {
-
     width: 190px;
     height: 250px;
     margin: 20px;
-
     background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    transition: box-shadow 0.3s ease;
+    box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
     text-align: center;
-
     border-radius: 1em;
-
-}
-
-.carta:hover {
-  box-shadow: 0 4px 8px #de84ff4d;
 }
 
 /* Estilo para la imagen de cada producto */
 .carta img {
-
     width: 80%;
     height: auto;
     margin-top: 1em;
     margin-bottom: 10px;
-
 }
 
 /* Estilo para el nombre y precio de cada producto */
 .carta h3 {
-
     font-size: 18px;
     font-weight: bold;
     color: #333;
-
 }
 
 .carta h3 span {
-  font-size: 14px;
-  font-weight: normal;
-  color: #999;
-
+    font-size: 14px;
+    font-weight: normal;
+    color: #999;
 }
 
+/* Fin CSS Lista Productos */
 
-/* Fin CSS Lista Productos*/
+/* Inicio CSS Sobre Nosotros */
 
-
-/* Inicio CSS Sobre Nosotros*/
-
-.titulonosotros{
-
+.titulonosotros {
     text-align: center;
     margin-top: 2em;
     font-family: 'Cormorant', serif;
     font-size: 36px;
-
 }
 
-.nosotros_contenedor{
-
+.nosotros_contenedor {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 8em 5em 8em;
-   
 }
-.textonosotros{
 
+.textonosotros {
     font-family: 'Karla', sans-serif;
-
 }
-.img_nosotros img{
 
+.img_nosotros img {
     width: 650px;
     height: 450px;
     border-radius: 2em;
     margin-right: 2em;
 }
 
-.texto_nosotros{
+.texto_nosotros {
     margin-left: 2em;
 }
 
-
-/*Fin CSS Sobre Nosotros*/
+/* Fin CSS Sobre Nosotros */
 
 /* Inicio CSS Contacto */
 
-.titulocontacto{
-
+.titulocontacto {
     text-align: center;
     margin-top: 2em;
     font-family: 'Cormorant', serif;
     font-size: 36px;
-
 }
 
-.contactanos_contenedor{
-
+.contactanos_contenedor {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-
 }
 
-.ubicacion_map{
+.ubicacion_map {
     margin: 0 2em 3em 8em;
 }
 
-.texto_contacto{
+.texto_contacto {
     text-align: center;
-    margin: 0 2em 3em 8em;
-
-    border-radius: 3em;
-    height: 20em;
-    width: 20em;
-
-    background-color: #fff6eb;
+    color: white;
+    background-color: #c798e6;
     border: none;
     padding: 1rem;
     font-size: 1rem;
-    color: #491E21;
-    box-shadow: 0 0.4rem #585858;
-    cursor: pointer;
+    box-shadow: 0 0 #ffffff;
 }
 
+.texto_contacto {
+    text-align: center;
+    color: #fff;
+    margin: 0 2em 3em 8em;
+    width: 20em;
+    height: 25em;
+    border-radius: 30px;
+    background: #c798e6;
+    box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+}
 
 /* Fin CSS Contacto */
 
-/*WhatsApp*/
-
+/* WhatsApp */
 .whatsapp {
     position: fixed;
     bottom: 5em;
     right: 20px;
-  
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     text-align: center;
     font-size: 24px;
     line-height: 60px;
     z-index: 9999;
     transition: all 0.3s ease-in-out;
-    margin-right: 1.5em;
+    margin-right: 8em
+}
 
-  }
-  .whatsapp img{
-    width: 120px;
-    height: 95px;
-  }
-  .whatsapp:hover {
+.whatsapp img {
+    width: 70px;
+    height: 70px;
+}
+
+.whatsapp:hover {
     transform: scale(1.1);
-  }
-  
-  .whatsapp i {
+}
+
+.whatsapp i {
     vertical-align: middle;
-  }
-  
+}
 
-
-
-footer{
+footer {
     display: flex;
-    
-   justify-content: center;
+    justify-content: center;
     background-color: #c798e6;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-
 }
 
-
-.footer-right{
+.footer-right {
     width: 50%;
     text-align: right;
     margin-right: 11em;
@@ -336,17 +283,15 @@ footer{
     color: white;
 }
 
-.footer-left{
+.footer-left {
     margin-top: 0.5em;
-
     margin-left: 11em;
     width: 50%;
     align-items: flex-start;
     justify-content: center;
-   
 }
 
-.footer-left img{
+.footer-left img {
     width: 45px;
     padding: 0.5em;
 }

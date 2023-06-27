@@ -1,0 +1,187 @@
+/* Estilos generales para dispositivos móviles */
+@media screen and (max-width: 767px) {
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+    }
+  
+    body {
+      margin: 0 0em;
+    }
+  
+    .encabezado {
+      margin: 1em 0;
+    }
+  
+    .menu a {
+      margin: 0 0.5em;
+      font-size: 0.8rem;
+      width: 6em;
+    }
+  
+    .titulo {
+      margin-left: 2em;
+    }
+  
+    .titulo h1 {
+      font-size: 5em;
+    }
+  
+    .titulo h2 {
+      font-size: 3em;
+    }
+  
+    .flex-container-home {
+      margin: 5em 0 2em 0;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .presentacion {
+      margin: 2em 0;
+    }
+  
+    .presentacion img {
+      width: 100%;
+    }
+  
+    p {
+      font-size: 1.1em;
+    }
+  
+    /* Estilos Lista Productos */
+  
+    .lista-productos {
+      margin-bottom: 1em;
+    }
+  
+    .carta {
+      width: 150px;
+      height: 200px;
+      margin: 10px;
+    }
+  
+    .carta img {
+      width: 70%;
+      margin-bottom: 5px;
+    }
+  
+    .carta h3 {
+      font-size: 14px;
+    }
+  
+    .carta h3 span {
+      font-size: 12px;
+    }
+  
+    /* Estilos Sobre Nosotros */
+  
+    .nosotros_contenedor {
+      flex-direction: column;
+      margin: 0;
+    }
+  
+    .img_nosotros img {
+      width: 100%;
+      height: auto;
+      margin-right: 0;
+      margin-bottom: 2em;
+    }
+  
+    /* Estilos Contacto */
+  
+    .contactanos_contenedor {
+      flex-direction: column;
+      margin: 0;
+    }
+  
+    .ubicacion_map,
+    .texto_contacto {
+      margin: 0;
+    }
+  
+    .texto_contacto {
+      width: 100%;
+      height: auto;
+      margin: 2em 0;
+    }
+  }
+  
+  /* Estilos específicos para dispositivos con pantalla pequeña (como smartphones) */
+  @media screen and (max-width: 480px) {
+    .titulo h1 {
+      font-size: 4em;
+    }
+  
+    .titulo h2 {
+      font-size: 2.5em;
+    }
+  
+    .flex-container-home {
+      margin: 3em 0 1em 0;
+    }
+  
+    .presentacion img {
+      width: 90%;
+    }
+  
+    p {
+      font-size: 1em;
+    }
+  
+    /* Estilos Lista Productos */
+  
+    .carta {
+      width: 120px;
+      height: 160px;
+      margin: 8px;
+    }
+  
+    .carta img {
+      width: 60%;
+      margin-bottom: 3px;
+    }
+  
+    .carta h3 {
+      font-size: 12px;
+    }
+  
+    .carta h3 span {
+      font-size: 10px;
+    }
+  
+    /* Estilos Sobre Nosotros */
+  
+    .img_nosotros img {
+      width: 100%;
+      height: auto;
+      margin-right: 0;
+      margin-bottom: 1em;
+    }
+  
+    /* Estilos Contacto */
+  
+    .ubicacion_map,
+    .texto_contacto {
+      margin: 0;
+      font-size: 14px;
+    }
+  
+    .texto_contacto {
+      width: 100%;
+      height: auto;
+      margin: 1em 0;
+      font-size: 16px;
+    }
+  
+    .logo{
+        display: none;
+    }
+    footer{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        
+    }
+}

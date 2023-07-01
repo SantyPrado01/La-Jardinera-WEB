@@ -1,19 +1,19 @@
 /* Estilos generales para dispositivos móviles */
 @media screen and (max-width: 767px) {
     body {
-      margin: 0;
+      margin: 0em;
       padding: 0;
       min-height: 100vh;
     }
-  
-    body {
-      margin: 0 0em;
-    }
-  
+
     .encabezado {
       margin: 1em 0;
     }
-  
+
+    .Logo{
+      display: none;
+
+    }
     .menu a {
       margin: 0 0.5em;
       font-size: 0.8rem;
@@ -33,17 +33,15 @@
     }
   
     .flex-container-home {
-      margin: 5em 0 2em 0;
+      margin: 5em 2em;
+      display: flex;
       flex-direction: column;
-      align-items: center;
-    }
-  
-    .presentacion {
-      margin: 2em 0;
+      align-items: flex-start;
+      justify-content: center;
     }
   
     .presentacion img {
-      width: 100%;
+      width: 30em;
     }
   
     p {
@@ -79,7 +77,10 @@
   
     .nosotros_contenedor {
       flex-direction: column;
-      margin: 0;
+      margin: 3%;
+    }
+    .nosotros_contenedor h4{
+      text-align: center;
     }
   
     .img_nosotros img {
@@ -93,7 +94,7 @@
   
     .contactanos_contenedor {
       flex-direction: column;
-      margin: 0;
+      margin: 3em;
     }
   
     .ubicacion_map,
@@ -102,86 +103,19 @@
     }
   
     .texto_contacto {
-      width: 100%;
-      height: auto;
+      width: 15em ;
+      height:auto ;
       margin: 2em 0;
     }
+    .footer{
+      position: relative;
+
+    }
+    .whatsapp {
+      margin: 0em 1em 0em 0em;
+      bottom: 1.5em;
+
+  }
   }
   
-  /* Estilos específicos para dispositivos con pantalla pequeña (como smartphones) */
-  @media screen and (max-width: 480px) {
-    .titulo h1 {
-      font-size: 4em;
-    }
   
-    .titulo h2 {
-      font-size: 2.5em;
-    }
-  
-    .flex-container-home {
-      margin: 3em 0 1em 0;
-    }
-  
-    .presentacion img {
-      width: 90%;
-    }
-  
-    p {
-      font-size: 1em;
-    }
-  
-    /* Estilos Lista Productos */
-  
-    .carta {
-      width: 120px;
-      height: 160px;
-      margin: 8px;
-    }
-  
-    .carta img {
-      width: 60%;
-      margin-bottom: 3px;
-    }
-  
-    .carta h3 {
-      font-size: 12px;
-    }
-  
-    .carta h3 span {
-      font-size: 10px;
-    }
-  
-    /* Estilos Sobre Nosotros */
-  
-    .img_nosotros img {
-      width: 100%;
-      height: auto;
-      margin-right: 0;
-      margin-bottom: 1em;
-    }
-  
-    /* Estilos Contacto */
-  
-    .ubicacion_map,
-    .texto_contacto {
-      margin: 0;
-      font-size: 14px;
-    }
-  
-    .texto_contacto {
-      width: 100%;
-      height: auto;
-      margin: 1em 0;
-      font-size: 16px;
-    }
-  
-    .logo{
-        display: none;
-    }
-    footer{
-        margin: 0;
-        padding: 0;
-        position: relative;
-        
-    }
-}

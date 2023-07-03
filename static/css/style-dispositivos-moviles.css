@@ -6,7 +6,7 @@
       min-height: 100vh;
     }
 
-    .encabezado {
+    .flex-container-encabezado {
       margin: 1em 0;
     }
 
@@ -41,7 +41,7 @@
     }
   
     .presentacion img {
-      width: 30em;
+      width: 20em;
     }
   
     p {
@@ -50,7 +50,7 @@
   
     /* Estilos Lista Productos */
   
-    .lista-productos {
+    .flex-container-lista-productos {
       margin-bottom: 1em;
     }
   

@@ -12,7 +12,8 @@ html, body {
     min-height: 100vh;
 }
 
-.encabezado {
+/* Comienzo CSS INDEX */
+.flex-container-encabezado {
     display: flex;
     flex-direction: column;
     margin: 2em 0;
@@ -38,8 +39,8 @@ html, body {
     background-color: white;
     border: none;
     font-size: 1.2rem;
-    width: 10em;
-    box-shadow: 0 0.2rem #000000;
+    width: 12em;
+    box-shadow: 0 0.05rem #000000;
     cursor: pointer;
 }
 
@@ -73,7 +74,7 @@ html, body {
 }
 
 .flex-container-home {
-    margin: 10em 6em;
+    margin: 10em 12em 6em 12em;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -101,21 +102,25 @@ p {
 
 /* Fin CSS INDEX */
 
+
+/*======================================================================================*/
+
+
 /* Comienzo CSS Lista Productos */
 
-/* Estilo para el título de la lista de productos */
+    /* Estilo para el título de la lista de productos */
 .tituloproducto {
     text-align: center;
     margin-top: 2em;
-    margin-bottom: 30px;
     font-family: 'Cormorant', serif;
     font-size: 36px;
     font-weight: bold;
     color: #333;
 }
 
-/* Estilo para la sección de la lista de productos */
-.lista-productos {
+    /* Estilo para la sección de la lista de productos */
+.flex-container-lista-productos {
+    margin: 1em 12em 6em 12em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -124,7 +129,7 @@ p {
     margin-bottom: 2em;
 }
 
-/* Estilo para cada carta de producto */
+    /* Estilo para cada carta de producto */
 .carta {
     width: 190px;
     height: 250px;
@@ -135,7 +140,7 @@ p {
     border-radius: 1em;
 }
 
-/* Estilo para la imagen de cada producto */
+    /* Estilo para la imagen de cada producto */
 .carta img {
     width: 80%;
     height: auto;
@@ -143,20 +148,28 @@ p {
     margin-bottom: 10px;
 }
 
-/* Estilo para el nombre y precio de cada producto */
+    /* Estilo para el nombre y precio de cada producto */
 .carta h3 {
     font-size: 18px;
     font-weight: bold;
+    font-family: 'Karla', sans-serif;
     color: #333;
 }
 
 .carta h3 span {
     font-size: 14px;
     font-weight: normal;
+    font-family: 'Karla', sans-serif;
     color: #999;
 }
 
 /* Fin CSS Lista Productos */
+
+
+
+/*======================================================================================*/
+
+
 
 /* Inicio CSS Sobre Nosotros */
 
@@ -167,20 +180,21 @@ p {
     font-size: 36px;
 }
 
-.nosotros_contenedor {
+.flex-container-nosotros{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 8em 5em 8em;
+    margin: 1em 16em 6em 14em;
 }
 
 .textonosotros {
+
+    font-size: 1.3em;
     font-family: 'Karla', sans-serif;
 }
 
 .img_nosotros img {
-    width: 650px;
-    height: 450px;
+    width: 40em;
     border-radius: 2em;
     margin-right: 2em;
 }
@@ -191,6 +205,13 @@ p {
 
 /* Fin CSS Sobre Nosotros */
 
+
+
+/*======================================================================================*/
+
+
+
+
 /* Inicio CSS Contacto */
 
 .titulocontacto {
@@ -200,45 +221,40 @@ p {
     font-size: 36px;
 }
 
-.contactanos_contenedor {
+.flex-container-contactanos{
+    margin: 1em 14em 6em 14em;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
 }
+.map-ubicacion{ 
 
-.ubicacion_map {
-    margin: 0 2em 3em 8em;
+    margin-right: 2em;
 }
-
-.texto_contacto {
-    text-align: center;
-    color: white;
-    background-color: #c798e6;
-    border: none;
-    padding: 1rem;
-    font-size: 1rem;
-    box-shadow: 0 0 #ffffff;
-}
-
-.texto_contacto {
-    text-align: center;
-    color: #fff;
-    margin: 0 2em 3em 8em;
-    width: 20em;
-    height: 25em;
+#mapa{
+    height: 450px;
+    width: 650px;
+}   
+.img-contacto img{
+    margin-left: 2em;
     border-radius: 30px;
-    background: #c798e6;
+    height: 32em;
+    width: 26em;
     box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
 }
 
 /* Fin CSS Contacto */
 
+
+/*======================================================================================*/
+
+
 /* WhatsApp */
 .whatsapp {
     position: fixed;
     bottom: 5em;
-    right: 20px;
+    right: 4em;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -267,7 +283,7 @@ footer {
     display: flex;
     justify-content: center;
     background-color: #c798e6;
-    position: relative;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -276,7 +292,7 @@ footer {
 .footer-right {
     width: 50%;
     text-align: right;
-    margin-right: 11em;
+    margin-right: 14em;
     padding: 0.5em;
     font-family: 'Karla', sans-serif;
     font-size: 1em;
@@ -285,7 +301,7 @@ footer {
 
 .footer-left {
     margin-top: 0.5em;
-    margin-left: 11em;
+    margin-left: 13em;
     width: 50%;
     align-items: flex-start;
     justify-content: center;

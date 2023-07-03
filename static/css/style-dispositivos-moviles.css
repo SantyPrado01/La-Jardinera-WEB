@@ -36,10 +36,12 @@
       margin: 5em 2em;
       display: flex;
       flex-direction: column;
-      align-items: flex-start;
+      align-items:center;
       justify-content: center;
     }
-  
+    .presentacion{
+      margin-right: 0;
+    }
     .presentacion img {
       width: 20em;
     }
@@ -51,6 +53,7 @@
     /* Estilos Lista Productos */
   
     .flex-container-lista-productos {
+      margin:0;
       margin-bottom: 1em;
     }
   
@@ -75,47 +78,76 @@
   
     /* Estilos Sobre Nosotros */
   
-    .nosotros_contenedor {
+    .flex-container-nosotros {
       flex-direction: column;
-      margin: 3%;
+      margin:0;
     }
     .nosotros_contenedor h4{
       text-align: center;
     }
   
     .img_nosotros img {
-      width: 100%;
+      width: 25em;
       height: auto;
-      margin-right: 0;
-      margin-bottom: 2em;
+      margin: 0;
     }
-  
+
+    .textonosotros{
+      font-size: 1.1em;
+      text-align: center;
+      margin: 0.5em;
+    }
     /* Estilos Contacto */
   
-    .contactanos_contenedor {
+    .flex-container-contactanos {
       flex-direction: column;
       margin: 3em;
     }
-  
-    .ubicacion_map,
-    .texto_contacto {
+    
+    .map-ubicacion {
       margin: 0;
     }
-  
-    .texto_contacto {
-      width: 15em ;
-      height:auto ;
-      margin: 2em 0;
+    #mapa{
+      height: 350px;
+      width: 450px;
     }
-    .footer{
+   
+    .img-contacto img{
+      margin-left: 0;
+      margin-top: 2em;
+      height: 28em;
+      width: 24em;
+    }
+
+    footer{
       position: relative;
-
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     
     }
-    .whatsapp {
-      margin: 0em 1em 0em 0em;
-      bottom: 1.5em;
+    .footer-right {
+      text-align: center;
+      margin: 0;
+    }
+    .footer-left {
+      width: auto;
+      align-items: center;
+      margin: 0;
+    }
+    .footer-left img{
+      width: 35px;
+    }
 
-  }
-  }
+    .whatsapp {
+      position: fixed;
+      right:-7.5em;
+      bottom: 0.5em;
+    }
+    .whatsapp img{
+      width: 45px;
+      height: 45px;
+    }
+}
   
   

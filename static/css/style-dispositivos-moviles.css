@@ -1,153 +1,157 @@
-/* Estilos generales para dispositivos móviles */
-@media screen and (max-width: 767px) {
-    body {
-      margin: 0em;
-      padding: 0;
-      min-height: 100vh;
-    }
+@media screen and (max-width: 844px) {
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
 
-    .flex-container-encabezado {
-      margin: 1em 0;
-    }
+  .flex-container-encabezado {
+    margin: 1em 0;
+  }
 
-    .Logo{
-      display: none;
+  .Logo{
+    display: none;
 
-    }
-    .menu a {
-      margin: 0 0.5em;
-      font-size: 0.8rem;
-      width: 6em;
-    }
-  
-    .titulo {
-      margin-left: 2em;
-    }
-  
-    .titulo h1 {
-      font-size: 5em;
-    }
-  
-    .titulo h2 {
-      font-size: 3em;
-    }
-  
-    .flex-container-home {
-      margin: 5em 2em;
-      display: flex;
-      flex-direction: column;
-      align-items:center;
-      justify-content: center;
-    }
-    .presentacion{
-      margin-right: 0;
-    }
-    .presentacion img {
-      width: 20em;
-    }
-  
-    p {
-      font-size: 1.1em;
-    }
-  
-    /* Estilos Lista Productos */
-  
-    .flex-container-lista-productos {
-      margin:0;
+  }
+  .menu a {
+  height: 1.8em;
+  margin: 0 0.5em;
+  font-size: 0.8rem;
+  width: 6em;
+  padding: 0.2em;
+  }
+
+  .titulo {
+    margin: 1em;
+  }
+
+  .titulo h1 {
+    font-size: 5em;
+  }
+
+  .titulo h2 {
+    font-size: 3em;
+  }
+
+  .flex-container-home {
+    margin: 0;
+    display: flex;
+    flex-flow: column wrap;
+    align-items:center;
+    justify-content: center;
+    align-content: center;
+
+  }
+  .presentacion{
+    margin-right: 0;
       margin-bottom: 1em;
-    }
-  
-    .carta {
-      width: 150px;
-      height: 200px;
-      margin: 10px;
-    }
-  
-    .carta img {
-      width: 70%;
-      margin-bottom: 5px;
-    }
-  
-    .carta h3 {
-      font-size: 14px;
-    }
-  
-    .carta h3 span {
-      font-size: 12px;
-    }
-  
-    /* Estilos Sobre Nosotros */
-  
-    .flex-container-nosotros {
-      flex-direction: column;
-      margin:0;
-    }
-    .nosotros_contenedor h4{
-      text-align: center;
-    }
-  
-    .img_nosotros img {
-      width: 25em;
-      height: auto;
-      margin: 0;
-    }
+      margin-left:0;
+  }
+  .presentacion img {
+    width: 20em;
+  }
 
-    .textonosotros{
-      font-size: 1.1em;
-      text-align: center;
-      margin: 0.5em;
-    }
-    /* Estilos Contacto */
-  
-    .flex-container-contactanos {
-      flex-direction: column;
-      margin: 3em;
-    }
-    
-    .map-ubicacion {
-      margin: 0;
-    }
-    #mapa{
-      height: 350px;
-      width: 450px;
-    }
-   
-    .img-contacto img{
-      margin-left: 0;
-      margin-top: 2em;
-      height: 28em;
-      width: 24em;
-    }
+  p {
+    font-size: 1.1em;
+  }
 
-    footer{
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-     
-    }
-    .footer-right {
-      text-align: center;
-      margin: 0;
-    }
-    .footer-left {
-      width: auto;
-      align-items: center;
-      margin: 0;
-    }
-    .footer-left img{
-      width: 35px;
-    }
+  /* Estilos Lista Productos */
 
-    .whatsapp {
-      position: fixed;
-      right:-7.5em;
-      bottom: 0.5em;
-    }
-    .whatsapp img{
-      width: 45px;
-      height: 45px;
-    }
+  .flex-container-lista-productos {
+    margin:0;
+    margin-bottom: 1em;
+  }
+
+  .carta {
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+  }
+
+  .carta img {
+    width: 70%;
+    margin-bottom: 5px;
+  }
+
+  .carta h3 {
+    font-size: 14px;
+  }
+
+  .carta h3 span {
+    font-size: 12px;
+  }
+
+  /* Estilos Sobre Nosotros */
+
+  .flex-container-nosotros {
+    flex-direction: column;
+    margin:0;
+  }
+  .nosotros_contenedor h4{
+    text-align: center;
+  }
+
+  .img_nosotros img {
+    width: 22em;
+    height: auto;
+    margin: 0;
+  }
+
+  .textonosotros{
+    font-size: 1.1em;
+    text-align: center;
+    margin: 1em;
+  }
+  /* Estilos Contacto */
+
+  .flex-container-contactanos {
+    flex-direction: column;
+    margin: 3em;
+  }
+
+  .map-ubicacion {
+    margin: 0;
+  }
+  #mapa{
+    height: 350px;
+    width: 350px;
+  }
+
+  .img-contacto img{
+    margin-left: 0;
+    margin-top: 2em;
+    height: 26em;
+    width: 22em;
+  }
+
+  footer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .footer-right {
+    text-align: center;
+    margin: 0;
+  }
+  .footer-left {
+    width: auto;
+    align-items: center;
+    margin: 0;
+  }
+  .footer-left img{
+    width: 35px;
+  }
+
+  .whatsapp {
+    position: fixed;
+    right:-7.5em;
+    bottom: 0.5em;
+  }
+  .whatsapp img{
+    width: 45px;
+    height: 45px;
+  }
 }
-  
-  
+

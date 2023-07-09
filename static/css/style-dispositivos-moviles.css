@@ -155,3 +155,138 @@
   }
 }
 
+@media screen and (max-width: 1366px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .flex-container-encabezado {
+    margin: 2em 0;
+  }
+
+  .menu a {
+    height: 1.8em;
+    margin: 0 1em;
+    font-size: 1.2rem;
+    width: 12em;
+    padding: 0.2em;
+  }
+
+  .titulo {
+    margin-left: 0em;
+    margin-right: 0.5em;
+  }
+
+  .flex-container-home {
+    margin: 8em 10em 8em 10em;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    align-content: center;
+
+  }
+  .presentacion{
+    margin-right: 0;
+    margin-left:0.5em;
+  }
+  .presentacion img {
+    width: 30em;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+
+  /* Estilos Lista Productos */
+
+  .flex-container-lista-productos {
+    margin:1em 3em 1em 3em;
+ 
+  }
+
+  .carta {
+    width: 180px;
+    height: 220px;
+  }
+
+  .carta img {
+    width: 70%;
+    margin-bottom: 5px;
+  }
+
+  .carta h3 {
+    font-size: 14px;
+  }
+
+  .carta h3 span {
+    font-size: 12px;
+  }
+
+  /* Estilos Sobre Nosotros */
+
+  .flex-container-nosotros {
+    margin:1em 8em 1em 8em;
+  }
+  .nosotros_contenedor h4{
+    text-align: center;
+  }
+
+  .img_nosotros img {
+    height: auto;
+    margin: 0;
+  }
+
+  .textonosotros{
+    font-size: 1.1em;
+    text-align: center;
+    margin: 1em;
+  }
+  /* Estilos Contacto */
+
+  .flex-container-contactanos {
+    margin: 1em 3em 1em 3em;
+  }
+
+  .map-ubicacion {
+    margin-right: 1em;
+  }
+
+  #mapa{
+    height: 400px;
+    width: 450px;
+  }
+
+  .img-contacto img{
+    margin-left: 1em;
+    height: 26em;
+    width: 21em;
+  }
+
+  footer{
+    display: flex;
+    align-items: center;
+
+  }
+  .footer-right {
+    text-align: center;
+    margin-right: 4em;
+  }
+  .footer-left {
+    align-items: center;
+    margin-left: 3em; 
+  }
+  .footer-left img{
+    width: 35px;
+  }
+
+  .whatsapp {
+    position: fixed;
+    right:-4em;
+    bottom: 5em;
+  }
+  .whatsapp img{
+    width: 60px;
+    height: 60px;
+  }
+}

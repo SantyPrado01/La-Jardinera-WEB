@@ -16,7 +16,7 @@
     <div class="flex-container-encabezado">
         <div class="navegacion">
             <nav class="menu">
-                <img class= 'Logo' src="{% static 'css/Logo.png' %}">
+                <img class= 'Logo' src="{% static 'css/img/logo.png' %}">
                 <a href="{% url 'inicio' %}">Inicio</a>
                 <a href="{% url 'lista_productos' %}" >Productos</a>
                 <a href="{% url 'nosotros' %}">Sobre Nosotros</a>
@@ -36,18 +36,18 @@
             <p>Somos una empresa familiar dedicada a la compra y venta de materiales textiles de alta calidad. Desde 2010, retomamos el legado de nuestro abuelo, quien vendia telas en nuestra ciudad con una Jardinera única. Nos enorgullece llevar su espíritu emprendedor y ofrecer una amplia gama de telas para que realices tus prendas, decores tu hogar, o mimes a tus mascotas.Te esperamos para darte la mejor atencion.</P>
         </div>
         <div class="presentacion">
-            <a href="{% url 'lista_productos' %}" ><img src="{% static 'css/img-1.png'%}"></a>
+            <a href="{% url 'lista_productos' %}" ><img src="{% static 'css/img/presentacion.jpg'%}"></a>
         </div>
     </div>
 
 {% endblock %}
 
-    <a href="https://api.whatsapp.com/send?phone=5493541290240" target="_blank" class="whatsapp"><img src="{% static 'css/icon-whatsapp.png' %}"></a>
+    <a href="https://api.whatsapp.com/send?phone=5493541290240" target="_blank" class="whatsapp"><img src="{% static 'css/img/icon-whatsapp.png' %}"></a>
 
     <footer>    
         <div class='footer-left'>
             <a href=''><img src="{% static 'css/icon-facebook.png'%}"></a>
-            <a href='https://www.instagram.com/textillajardinera/' target="_blank"><img src="{% static 'css/icon-instagram.png'%}"></a>
+            <a href='https://www.instagram.com/textillajardinera/' target="_blank"><img src="{% static 'css/img/icon-instagram.png'%}"></a>
         </div>
         <div class='footer-right'>
             <h3>Creado por Santiago Prado.</h3>

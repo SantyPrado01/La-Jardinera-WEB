@@ -131,8 +131,8 @@ p {
 
     /* Estilo para cada carta de producto */
 .carta {
-    width: 190px;
-    height: 250px;
+    width: 180px;
+    height: 260px;
     margin: 20px;
     background-color: #fff;
     box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
@@ -142,10 +142,10 @@ p {
 
     /* Estilo para la imagen de cada producto */
 .carta img {
-    width: 80%;
+    width: 70%;
     height: auto;
     margin-top: 1em;
-    margin-bottom: 10px;
+    border-radius: 0.5em;
 }
 
     /* Estilo para el nombre y precio de cada producto */

@@ -1,47 +1,64 @@
-# Página web de La Jardinera
+# La Jardinera
 
-¡Bienvenido al repositorio de la página web de La Jardinera! En este repositorio encontrarás el código fuente de la página web de un local de venta de productos textiles llamado La Jardinera, desarrollada utilizando Django, HTML y CSS.
+## Descripción
 
-## Descripción de la página web
+La Jardinera es una página web desarrollada para un local de venta de productos textiles. Este proyecto fue diseñado para ofrecer una experiencia de usuario intuitiva, mostrando la variedad de productos disponibles y facilitando el contacto con el negocio. La aplicación fue creada utilizando Django para el backend y HTML/CSS para el frontend.
 
-La página web de La Jardinera consta de cuatro secciones principales:
+## Secciones Principales
 
-### Inicio
-En la sección de inicio, los visitantes son recibidos con una introducción atractiva sobre el local y su oferta de productos textiles. Aquí se destacan los aspectos más relevantes del negocio y se invita a los usuarios a explorar más.
+1. **Inicio**:
+   - Presenta una introducción atractiva al negocio y sus productos textiles.
+   - Destaca los aspectos más relevantes de La Jardinera para invitar a los usuarios a explorar.
 
-### Productos
-La sección de productos muestra una variedad de productos textiles disponibles en La Jardinera. Estos productos se presentan con imágenes, descripciones y precios. Los visitantes pueden navegar fácilmente y seleccionar los productos de su interés.
+2. **Productos**:
+   - Muestra una galería con imágenes, descripciones y precios de los productos textiles.
+   - Permite a los usuarios navegar fácilmente por las opciones disponibles.
 
-### Sobre nosotros
-En la sección de sobre nosotros, los visitantes pueden obtener información detallada sobre La Jardinera. Se proporciona una breve historia del negocio, así como su visión, misión y valores. 
+3. **Sobre Nosotros**:
+   - Incluye información sobre la historia, visión, misión y valores del negocio.
+   - Proporciona un contexto más personal sobre La Jardinera.
 
-### Contacto
-La sección de contacto permite a los visitantes ponerse en contacto con La Jardinera de manera rápida y sencilla. Además, se integra un botón de WhatsApp para una comunicación directa y conveniente. También se muestra un mapa interactivo de Google Maps para ayudar a los usuarios a encontrar la ubicación física del local.
+4. **Contacto**:
+   - Permite a los usuarios comunicarse con el negocio a través de un formulario o mediante un botón de WhatsApp.
+   - Muestra un mapa interactivo con la ubicación física de La Jardinera.
 
-## Tecnologías utilizadas
+## Tecnologías Utilizadas
 
-La página web de La Jardinera fue desarrollada utilizando las siguientes tecnologías:
+### Backend
+- **Django**: Framework web de Python utilizado para gestionar la lógica del servidor y la base de datos.
 
-- Django: un framework web de Python que proporciona una estructura sólida para el desarrollo de aplicaciones web.
-- HTML: lenguaje de marcado utilizado para estructurar y presentar el contenido de la página web.
-- CSS: lenguaje de estilo utilizado para diseñar y personalizar la apariencia visual de la página web.
+### Frontend
+- **HTML**: Para estructurar el contenido de las páginas.
+- **CSS**: Para definir el diseño y estilo visual de la página.
 
-## Cómo ejecutar el proyecto localmente
+## Instalación
 
-Si deseas ejecutar el proyecto de la página web de La Jardinera en tu máquina local, sigue estos pasos:
+### Requisitos y Pasos
 
-1. Clona este repositorio en tu máquina local.
-2. Asegúrate de tener Python y Django instalados en tu entorno de desarrollo.
-3. Navega hasta el directorio del proyecto en tu terminal.
-4. Ejecuta el comando `python manage.py runserver` para iniciar el servidor de desarrollo de Django.
-5. Abre tu navegador web y accede a `http://localhost:8000` para ver la página web de La Jardinera en acción.
+Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
 
-¡No dudes en explorar el código fuente y realizar cualquier modificación o mejora que desees!
+1. Clona este repositorio en tu máquina local utilizando:
+   ```bash
+   git clone
+   ```
+2. Asegúrate de tener Python 3.x instalado en tu entorno.
+3. Instala Django y las dependencias necesarias ejecutando
+    ```bash
+   pip install -r requirements.txt
+    ```
+4. Configura las variables necesarias en el archivo de configuración de Django.
+5. Realiza las migraciones de base de datos con el comando
+  ```bash
+  python manage.py migrate`
+  ```
+6. Ejecuta el servidor de desarrollo de Django utilizando
+    ```bash
+    `python manage.py runserver`.
+    ```
+7. Abre tu navegador y accede a `http://localhost:8000` para explorar la página.
 
-Si tienes alguna pregunta o comentario, por favor no dudes en contactarme.
+## Autor
 
-## Visita el sitio Web
+Este proyecto fue desarrollado por Santiago Prado. ¡Gracias por visitar La Jardinera!
 
-https://lajardineratextil.pythonanywhere.com/
 
-¡Disfruta navegando por la página web de La Jardinera!

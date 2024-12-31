@@ -48,12 +48,12 @@ Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
     ```
 4. Configura las variables necesarias en el archivo de configuración de Django.
 5. Realiza las migraciones de base de datos con el comando
-  ```bash
-  python manage.py migrate`
-  ```
+   ```bash
+   python manage.py migrate
+   ```
 6. Ejecuta el servidor de desarrollo de Django utilizando
     ```bash
-    `python manage.py runserver`.
+    python manage.py runserver.
     ```
 7. Abre tu navegador y accede a `http://localhost:8000` para explorar la página.
 
